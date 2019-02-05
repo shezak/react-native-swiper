@@ -642,7 +642,7 @@ export default class extends Component {
           contentOffset={this.state.offset}
           onScrollBeginDrag={this.onScrollBegin}
           onMomentumScrollEnd={this.onScrollEnd}
-          onScrollEndDrag={this.onScrollEndDrag}
+          onScrollEndDrag={this.onScrollEnd}
           style={this.props.scrollViewStyle}>
           {pages}
         </ScrollView>
